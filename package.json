@@ -11,7 +11,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
   },
-  "homepage": "https://github.com/arsalanyasir1/build.git",
+  "homepage": "ssh://git@github.com:arsalanyasir1/build.git",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
