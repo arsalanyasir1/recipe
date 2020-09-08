@@ -10,10 +10,7 @@ const Recipe = ({title,calories,image,ingredients}) => {
             <h1 >{title}</h1>
             <ol>
                 {ingredients.map(ingredient =>(         
-                    <li >{ingredient.text}</li> ///arsalan ye ingredients key value pair mein honay chahye, ingredient ke
-                                                // key app.js mein access ho ge. list k leay key access krni hai aur list 
-                                                // ingredients ke hai. ab ye pta nae lg raha k ye ingredients kahan se 
-                                                // a raey. unko key value pair mein krna, phr ho ga ye                          
+                    <li >{ingredient.text}</li>                          
               
                 ))}
             </ol>
